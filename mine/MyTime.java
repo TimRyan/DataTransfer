@@ -10,12 +10,13 @@ import java.text.SimpleDateFormat;
  * 
  */
 public class MyTime {
-	
+
 	/**
 	 * Getting current date and time
+	 * 
 	 * @return current date+time in format "yyyy-MM-dd hh:mm:ss"
 	 */
-	public static String refFormatNowDate() {
+	public static String nowTime() {
 		Date nowTime = new Date(System.currentTimeMillis());
 		SimpleDateFormat sdFormatter = new SimpleDateFormat(
 				"yyyy-MM-dd hh:mm:ss");

@@ -153,8 +153,6 @@ public class DBConn {
 	public Connection getOriginConn() {
 		return conn;
 	}
-	
-	
 
 	/**
 	 * Close connection and result set
